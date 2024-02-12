@@ -7,17 +7,21 @@
     </head>
     <div>
     <body>
-    <h1 id='title'>Survey Form</h1>
+    <h1 id='title' class='title'>Survey Form</h1>
     <p id='description'
-    class='title'>Thank you for completing our survey</p>
+    class='title1'>Thank you for completing our survey</p>
     <div>
-    <form id='survey-form' action='Submit'>
-      <label for='name' id='name-label' class="q" >Enter Your Name:<input id='name' type="text" placeholder='Enter Your Name' required /></label>
-      <label for="email" id='email-label' class="q" >Enter Your Email:<input id="email" type="email" required placeholder='Enter Your Email' /></label>
-      <label for='number' id='number-label' class="q">Enter Your Number: <input type='number' id='number' name='number' min="10" max="10" placeholder='Enter Your Number'  required></label>
+    <div id='survey-form' class="survey-form" action='Submit'>
+      <label for='name' id='name-label' class="q" >Enter Your Name:<input id='name' type="text" class="input_field" placeholder='Enter Your Name' required /></label>
+      <br>
+      <label for="email" id='email-label' class="q" >Enter Your Email:<input class="input_field" id="email" type="email" required placeholder='Enter Your Email' /></label>
+      <br>
+      <label for='phone-number' class="q" id='phone-number-label'>Enter Your Number:<input class="input_field" type='phone-number' id='phone-number' name='phone-number' min="10" max="10" placeholder='Enter Your Number'  required></label>
+      <br>
       <div>
-      <select id='dropdown'>
-      <option value='marital-status'>Marital Status</option>
+        <label for='Status' type="dropdown" class="dropdown"></label>
+      <select class="input_field" id='dropdown'>
+      <option value='marital-status'> Marital Status</option>
       <option value='single'>Single</option>
       <option value='married'>Married</option>
       <option value='widowed'>Widowed</option>
@@ -26,20 +30,21 @@
       </select>
       </div>
       <div>
-      <label for='gender' type='dropdown'>Gender<select id='gender'  name='gender'placeholder='Select Age'>
-      <option value="">Select Gender</option>
+      <label for='gender' type='dropdown' class="input_field" ><select id='gender' class="input_field"  name='gender'placeholder='Select Age'>
+      <option class='option' value="">Select Gender</option>
       <option value='Female'>Female</option>
       <option value='Male'>Male</option>
       <option value='Non Binary'>Non Binary</option>
       </select></label>
       </div>
       </di>
-      <div>
+      <div class="radio">
       <ul>
-      <ol for="citizen-ship">Citizenship</ol>
+      <ol for="citizen-ship" class="citi">Citizenship</ol>
       <ol for="us-citizen" ><input id="us-citizen" type="radio" name="citizen-ship" class="grid-style" value='us-citizen'/>US Citizen</ol>
-      <ol for="non-citizen" ><input id="non-citizen"  type="radio" name="citizen-ship" class="grid-style" value="non-citizen" />Non Citizen<ol>
-      <ol for="other" name="citizenship"><input id="other" type="radio" name="citizen-ship" class="grid-style" value="other"/>Other</ol>
+      <br>
+      <ol for="non-citizen" class="citi" ><input id="non-citizen"  type="radio" name="citizen-ship" class="grid-style" value="non-citizen" />Non Citizen</ul><ol>
+      <ol for="other" class="citi" name="citizen-ship"><input id="other" type="radio" name="citizen-ship" class="grid-style" value="other"/>Other</ol>
       </ul>
 
       <ul>
