@@ -1,0 +1,33 @@
+.title{
+    color:gold;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+}
+body{
+    background-color: teal;
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+    color:gold;
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+}
+.button{
+    background-color: gold;
+    color: teal;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+label{
+    color:gold;
+    font-size: 12px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+    
+}
