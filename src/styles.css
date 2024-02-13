@@ -1,6 +1,10 @@
-body{
-    background-color: black;
-    font-family: 'Times New Roman', Times, serif;
-    color:aquamarine;
-    
+.title {
+font-family: 'Times New Roman', Times, serif;
+text-align: center;
+color: turquoise;
+}
+.h1 {
+font-family: 'Times New Roman', Times, serif;
+text-align: center;
+color: turquoise;
 }
