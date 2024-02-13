@@ -1,0 +1,59 @@
+.title{
+    color:gold;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+
+}
+.title1{
+    color:gold;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+}
+body{
+    background-color: teal;
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+    color:gold;
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: small;
+}
+.input_field{
+
+
+    background-color: black;
+    color: gold;
+    font-size: small;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    
+}
+.survey-form{
+    background-color: teal;
+    color: gold;
+    font-size: small;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+}
+.radio{
+    background-color: teal;
+    color: gold;
+    font-size: small;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+    .radio {
+        flex-direction: column;
+        display: flex;
+        align-items: left;
+    }
+}
+.citi{
+    background-color: teal;
+    color: gold;
+    font-size: small;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+    justify-content: flex-start;
+}
