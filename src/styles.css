@@ -41,3 +41,11 @@ html {
     border-radius: 10px;
     float:inline-end;
 }
+#img-caption{
+    color: aquamarine;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
